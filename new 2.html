@@ -3,28 +3,47 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style1.css.css">
+<link rel="stylesheet" href="css/style.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
-.foto {
-                width:;
-                   border: 1px solid rgb(145, 0, 0);
-                   margin: 1px 20px 10px 40px;
-                     
-            }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+		
+	body {
+             background-color:rgb(230, 230, 234);
+         }	
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
-<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="new 1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Planetas</a>
+    <a href="new 3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Introducción</a>
+    <a href="new 4.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacto</a>
+    <a href="new 2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Investigaciones</a>
+  </div>
 
-
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="new 1.html" class="w3-bar-item w3-button w3-padding-large">Planetas</a>
+    <a href="new 3.html" class="w3-bar-item w3-button w3-padding-large">Introducción</a>
+    <a href="new 4.html" class="w3-bar-item w3-button w3-padding-large">Contacto</a>
+    <a href="new 2.html" class="w3-bar-item w3-button w3-padding-large">Investigaciones</a>
+  </div>
+</div>
 <!-- Header -->
-<header class=" w3-blue w3-center" style="padding:50px 16px">
-  <h1 class="">Planetas Transneptunianos</h1>
-
+<header class="w3-container w3-grey w3-center" style="padding:40px 16px">
+  <h1 class="w3-margin w3-jumbo">INVESTIGACIONES</h1>
 </header>
 
 <!-- First Grid -->
@@ -32,10 +51,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>Agencias espaciales</h1>
-      <h5 class="w3-padding-32">
+     <h6>
 	  
       <p class="">Las agencias espaciales son muy importantes para todo lo relacionado con las investigaciones espaciales ya que gracias a ellas sabemos mucho de el espacio, hay muchas bases spaciales repartidas por del mundo de diferentes países, aquí os dejo un mapa donde lo podeis ver fácilmete.</p>
     <p>La mayor parte de los descubrimientos importantes son realizado por las bases Estadounidenses conocidas como la NASA.</p>
+	<p>También se puede saber que hay varios secretos que no son contados, se puede saber debido a que hay muchas bases secretas como por ejemplo el Área 51, aunque siempre es de agradecer que nos hablen de algunas de sus investigaciones y descubrimientos</p>
+	
 	</div>
 	
 
@@ -62,7 +83,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 	  <p>Kepler 452-B no es el único planeta similar a la Tierra encontrado por la NASA. Después de tres años de búsqueda, la misión Kepler de la agencia espacial ampliaba a 29 mundos el catálogo de planetas potencialmente habitables, todos ellos fuera del sistema solar. Este es un descubrimiento muy importante para la humanidad.</p>
     <h3>Azúcar en meteoritos</h3>
 	<p>El 18 de noviembre, la NASA reveló que un equipo internacional ha encontrado azúcares esenciales para la vida en meteoritos. Este descubrimiento se suma a la creciente lista de compuestos biológicamente importantes que se han encontrado en meteoritos, lo que respalda la hipótesis de que las reacciones químicas en los asteroides.</p>
-	<p><em><a href="index.html"><strong>ATRÁS</strong></a></em></p>
+	
 	</div>
 	
   </div>
